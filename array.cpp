@@ -2,11 +2,9 @@
 using namespace std;
 
 int main() {
-  string cars[4] = {"Audi", "BMW", "Benz", "tesla"};
+  string cars[] = {"Audi", "BMW", "Benz", "tesla"};
 
-  for(int i = 0; i < 4; i++) {
-    cout << cars[i] << " for loop" << endl;
-  }
+  cout << sizeof(cars) << endl;
 
   // for each
   for (string j : cars){
